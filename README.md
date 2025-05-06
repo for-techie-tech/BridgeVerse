@@ -28,4 +28,4 @@
 * Modern form handling with built-in server actions
 * Realtime UX improvements through optimistic updates
 
-Deployment: bridgeverse-production.up.railway.app
+Deployment: https://bridgeverse-production.up.railway.app/
