@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌉 BridgeVerse
 
-## Getting Started
+**BridgeVerse** is a full-stack web application built to showcase the power and flexibility of modern web development with a focus on performance, scalability, and developer experience.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Framework**: Next.js (App Router) with TypeScript
+* **Styling**: Tailwind CSS & Shadcn UI
+* **Database**: PostgreSQL via Prisma ORM
+* **Auth**: Clerk for authentication & authorization
+* **File Uploads**: UploadThing for seamless image/file uploads
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* ⚙️ **Server & Client Components** with dynamic/static routing
+* 🧩 **Layouts, loading.tsx, error.tsx, not-found.tsx** for better UX
+* 📡 **Route Handlers (API integration)** for backend logic
+* 🔄 **Data fetching, caching, and revalidation** using modern Next.js practices
+* ✍️ **Server actions & forms** with **optimistic UI updates**
+* 🔐 Secure user flows with role-based access and session handling
+* 📤 Upload capabilities with post-upload logic and user metadata
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Concepts Demonstrated
 
-## Learn More
+* Clean architecture using App Router
+* Full-stack integration with PostgreSQL and Prisma
+* Handling of loading, error, and 404 states gracefully
+* Modern form handling with built-in server actions
+* Realtime UX improvements through optimistic updates
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployment: bridgeverse-production.up.railway.app
